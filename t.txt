@@ -1,0 +1,1 @@
+FORGET_PASSWORD_LINK = By.XPATH, "//a[text()='Forget Password']"

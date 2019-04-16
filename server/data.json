@@ -1,0 +1,254 @@
+[
+    {
+        "name": "NEWDMW_ORACLELOGO",
+        "selector": "//a[@id='pt1:logoLinkAlt']",
+        "selector_type": "xpath",
+        "page": "That Page",
+        "image": "white"
+    },
+    {
+        "name": "NEWDMW_ABTORACLE",
+        "selector": "//a[.='About Oracle']",
+        "selector_type": "xpath",
+        "page": "Landing Page",
+        "image": "white"
+    },
+    {
+        "name": "NEWDMW_LASTMODIFICATIONCOLUMN",
+        "selector": "//span[.='LAST_MODIFICATION']",
+        "selector_type": "xpath",
+        "page": "That Page",
+        "image": "white"
+    },
+    {
+        "name": "NEWDMW_USERNAMETOLOGOUT",
+        "selector": "//a[.='{dmw_un_logout}']",
+        "selector_type": "xpath",
+        "page": "That Page",
+        "image": "white"
+    },
+    {
+        "name": "NEWDMW_LOGOUT",
+        "selector": "//td[.='Sign Out']",
+        "selector_type": "xpath",
+        "page": "That Page",
+        "image": "white"
+    },
+    {
+        "name": "NEWDMW_DATAVIEWSCROLLER",
+        "selector": "//div[@id='pt1:r1:0:pt2::DatabodyScroller11']",
+        "selector_type": "xpath",
+        "page": "This Page",
+        "image": "white"
+    },
+    {
+        "name": "NEWDMW_YESINPOPUP",
+        "selector": "//span[.='Yes']",
+        "selector_type": "xpath",
+        "page": "That Page",
+        "image": "white"
+    },
+    {
+        "name": "LSH_LOGIN_BUTTON",
+        "selector": "//*[@id='SubmitButton']",
+        "selector_type": "xpath",
+        "page": "That Page",
+        "image": "white"
+    },
+    {
+        "name": "APPLICATION_LINK(NW)",
+        "selector": "//a[text()='Applications']",
+        "selector_type": "xpath",
+        "page": "This Page",
+        "image": "white"
+    },
+    {
+        "name": "APP_AREA1",
+        "selector": "//*[text()='{Application_Area1}'] ",
+        "selector_type": "xpath",
+        "page": "That Page",
+        "image": "white"
+    },
+    {
+        "name": "APP1_AREA1",
+        "selector": "//a[text()='{Application_Area1}'] ",
+        "selector_type": "xpath",
+        "page": "That Page",
+        "image": "white"
+    },
+    {
+        "name": "PREFERENCES_LINK_BTM",
+        "selector": "//*[text()='About this Page']",
+        "selector_type": "xpath",
+        "page": "Landing Page",
+        "image": "white"
+    },
+    {
+        "name": "SUBMT_COLN",
+        "selector": "//*[text()='Submit']",
+        "selector_type": "xpath",
+        "page": "That Page",
+        "image": "white"
+    },
+    {
+        "name": "SPEC_ICON_LSH",
+        "selector": "//*[@id='N6:Y:2']/img",
+        "selector_type": "xpath",
+        "page": "Landing Page",
+        "image": "white"
+    },
+    {
+        "name": "LSH_UNAM_LOGIN",
+        "selector": "//*[@id='unamebean']",
+        "selector_type": "xpath",
+        "page": "Landing Page",
+        "image": "white"
+    },
+    {
+        "name": "LSH_PWD1",
+        "selector": "//*[@id='pwdbean']",
+        "selector_type": "xpath",
+        "page": "This Page",
+        "image": "white"
+    },
+    {
+        "name": "LSH_ICON",
+        "selector": "//*[@id='pt1:cb19']",
+        "selector_type": "xpath",
+        "page": "That Page",
+        "image": "white"
+    },
+    {
+        "name": "LIFE_BUTTON",
+        "selector": "//table[@id='respList']/tbody/tr/td/ul/li/a[text()='Life Sciences Data Hub']/img[@alt='Expand']",
+        "selector_type": "xpath",
+        "page": "That Page",
+        "image": "white"
+    },
+    {
+        "name": "DOMAIN_INPUT",
+        "selector": "//table[@id='DomainSharedMCLRN']/tbody/tr/td/table/tbody/tr/td/span/input",
+        "selector_type": "xpath",
+        "page": "Landing Page",
+        "image": "white"
+    },
+    {
+        "name": "GO_BUTTON",
+        "selector": "//*[@id='GoBtn']",
+        "selector_type": "xpath",
+        "page": "That Page",
+        "image": "white"
+    },
+    {
+        "name": "CUST_BTN",
+        "selector": "//*[@id='CustomizeBtn'] ",
+        "selector_type": "xpath",
+        "page": "Landing Page",
+        "image": "white"
+    },
+    {
+        "name": "APPLY",
+        "selector": "//*[@id='ApplyBtn_uixr']",
+        "selector_type": "xpath",
+        "page": "That Page",
+        "image": "white"
+    },
+    {
+        "name": "APP_AREA2",
+        "selector": "//*[text()='{Application_Area2}'] ",
+        "selector_type": "xpath",
+        "page": "That Page",
+        "image": "white"
+    },
+    {
+        "name": "APP1_AREA2",
+        "selector": "//a[text()='{Application_Area2}'] ",
+        "selector_type": "xpath",
+        "page": "Landing Page",
+        "image": "white"
+    },
+    {
+        "name": "BLIND",
+        "selector": "//*[@id='BlindBreak'] ",
+        "selector_type": "xpath",
+        "page": "This Page",
+        "image": "white"
+    },
+    {
+        "name": "APPLICATION_LINK",
+        "selector": "//*[@id='CDR_NAV_APPS']",
+        "selector_type": "xpath",
+        "page": "That Page",
+        "image": "white"
+    },
+    {
+        "name": "CLICK_APPLICATION",
+        "selector": "//a[text()='Applications']",
+        "selector_type": "xpath",
+        "page": "That Page",
+        "image": "white"
+    },
+    {
+        "name": "LSHHOME",
+        "selector": "//a[text()='Home']",
+        "selector_type": "xpath",
+        "page": "That Page",
+        "image": "white"
+    },
+    {
+        "name": "LSH_LOGOUT",
+        "selector": "//a[text()='Logout']",
+        "selector_type": "xpath",
+        "page": "Landing Page",
+        "image": "white"
+    },
+    {
+        "name": "DMW_SEARCH",
+        "selector": "//*[@id='pt1:r1:0:r1:0:l1::icon']",
+        "selector_type": "xpath",
+        "page": "This Page",
+        "image": "white"
+    },
+    {
+        "name": "ALSC_LOGOUT",
+        "selector": "//a[text()='Logout']",
+        "selector_type": "xpath",
+        "page": "Landing Page",
+        "image": "white"
+    },
+    {
+        "name": "ERROR_MGMT_ICON",
+        "selector": ".//*[@id='pt1:cb10']",
+        "selector_type": "xpath",
+        "page": "That Page",
+        "image": "white"
+    },
+    {
+        "name": "ERROR_SYSTEM",
+        "selector": "//label[text()='ALSC System']/../../td[2]//select",
+        "selector_type": "xpath",
+        "page": "Landing Page",
+        "image": "white"
+    },
+    {
+        "name": "ERROR_STUDY",
+        "selector": ".//*[@id='pt1:qryId1:value70::content']",
+        "selector_type": "xpath",
+        "page": "That Page",
+        "image": "white"
+    },
+    {
+        "name": "ERROR_SEARCH",
+        "selector": ".//*[@id='pt1:qryId1::search']",
+        "selector_type": "xpath",
+        "page": "This Page",
+        "image": "white"
+    },
+    {
+        "name": "ERROR_INVALID_FILE_NAME",
+        "selector": ".//*[@id='pt1:md1::db']/table/tbody/tr[1]/td[9]",
+        "selector_type": "xpath",
+        "page": "Landing Page",
+        "image": "white"
+    }
+]
