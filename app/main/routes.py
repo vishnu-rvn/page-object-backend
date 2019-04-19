@@ -10,8 +10,14 @@ api = Api(api_blueprint)
 
 class ObjectMapList(Resource):
     def get(self):
-        results = mongo.db[DBConfig.COLLECTION_NAME].find({})
-        results = [r['name'] for r in results]
+        results = []
+        for res in mongo.db[DBConfig.COLLECTION_NAME].find({}):
+            results.append({
+                "name": res["name"],
+                "selector": res["selector"],
+                "selector_type": res["type"],
+                "page": res["page"]
+            })
         return jsonify(results)
 
 
