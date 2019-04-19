@@ -1,24 +1,24 @@
-let hello = {
-    validator: {
-        $jsonSchema: {
-            bsonType: "object",
-            additionalProperties: false,
-            required: ["_id", "name", "selector", "selector_type", "page"],
-            properties: {
-                _id: {
-                    bsonType: "string"
-                }, name: {
-                    bsonType: "string",
-                    description: "should be a string"
-                }, selector: {
-                    bsonType: "string",
-                    description: "should be a string"
-                }, selector_type: {
-                    bsonType: "string",
-                    description: "should be a string"
-                }, page: {
-                    bsonType: "string",
-                    description: "should be a string"
+{
+    "validator": {
+        "$jsonSchema": {
+            "bsonType": "object",
+            "additionalProperties": false,
+            "required": ["_id", "name", "selector", "selector_type", "page"],
+            "properties": {
+                "_id": {
+                    "bsonType": "string"
+                }, "name": {
+                    "bsonType": "string",
+                    "description": "should be a string"
+                }, "selector": {
+                    "bsonType": "string",
+                    "description": "should be a string"
+                }, "selector_type": {
+                    "bsonType": "string",
+                    "description": "should be a string"
+                }, "page": {
+                    "bsonType": "string",
+                    "description": "should be a string"
                 }
             }
         }
